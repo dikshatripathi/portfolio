@@ -1,0 +1,26 @@
+.container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    margin: 25px;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  

@@ -1,0 +1,55 @@
+body {
+  background: url('./stuffs/img/c8.jpg') no-repeat fixed center center;
+  background-size: cover;
+ 
+}
+
+.m{
+  padding: 80px;
+}
+
+
+.mar{
+  margin-top: 50px;
+}
+
+.intro{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.name{
+  color: rgb(74, 7, 100);
+ font-size: 27px;
+ margin:5px;
+}
+
+.para{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:18px;
+  line-height: 1.5;
+}
+
+.b{
+  margin-top: 40px;
+}
+.b a{
+  text-decoration: none;
+  color: rgb(74, 7, 100);
+ 
+  padding: 10px;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.b a:hover{
+  transition: 0.5s;
+  font-size: 22px;
+  padding: 11px;
+}

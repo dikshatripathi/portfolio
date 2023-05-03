@@ -1,0 +1,35 @@
+.dbtn{
+ text-align: end;
+ margin-right: 25px;
+}
+.btn{
+    margin-top: 20px;
+    width: 40px;
+    height:40px;
+    /* background-color:rgb(179, 255, 0); */
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+#c1{
+background-image: url('./img/c7.jpg');
+
+}
+#c2{
+    background-image: url('./img/bg.jpg');
+
+}
+#c3{
+    background-image: url('./img/c6.jpg');
+
+}
+#c4{
+    background-image: url('./img/c1.jpg');
+
+}
+
+.btn:hover{
+    transition: 0.5s;
+    width: 42px;
+    height:42px;
+}

@@ -1,0 +1,29 @@
+.footer {
+    background-color: #d42a38;
+    color: #e0d8d8;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .footer a {
+    color: #e6e0e0;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .footer a:hover {
+    color: #FFB6C1;
+    transform: translateY(-2px);
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
