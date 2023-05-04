@@ -6,7 +6,7 @@ import Sing from './img/sing.jpg';
 const Hobbies = () => {
   return (
     <div className="hobbies-container" id="hobbies">
-      <h2>Hobbies</h2>
+     
      
       <div className="hobby">
         <img src={Travel} alt="Hobby 2" />

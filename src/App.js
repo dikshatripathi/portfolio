@@ -4,8 +4,9 @@ import Navbar from './stuffs/nav';
 import Logo from './stuffs/logo';
 import Color from './stuffs/colorbar'
 import pdf from './stuffs/pdf/Diksha.pdf'
-import AboutUs from './stuffs/AboutUs';
 import Project from './stuffs/skills';
+import About from './stuffs/AboutUs';
+
 import Skills from './stuffs/Skills1';
 import Qualifications from './stuffs/Qualifications';
 import Footer from './stuffs/Footer';
@@ -45,11 +46,12 @@ function App() {
         <div className="b"><a href={pdf} >Resume</a></div>
 
         <br />
-        <AboutUs />
+       <About/>
         <Skills />
         <Qualifications />
         <Project />
         <Certificate />
+        
         <Hobbies />
       </div>
 

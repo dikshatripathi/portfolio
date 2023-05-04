@@ -18,8 +18,8 @@
   
 }
 .img:hover{
-    width:255;
-    height:255px;
+    width:250;
+    height:260px;
     transition: 0.6s;
 }
 
