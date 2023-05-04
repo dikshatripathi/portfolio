@@ -12,7 +12,8 @@ const AboutUs = () => {
       </div>
       <div className="description">
         <h2>Diksha Tripathi</h2>
-        <p className="para">I am a driven and passionate individual who has a thirst for knowledge and a talent for innovation. My curiosity and eagerness to learn constantly fuel my desire to invent something new and exciting using my existing knowledge.<br/><br/>
+        <div className="some">
+                  <p className="para">I am a driven and passionate individual who has a thirst for knowledge and a talent for innovation. My curiosity and eagerness to learn constantly fuel my desire to invent something new and exciting using my existing knowledge.<br/><br/>
 
           As a responsible and organized candidate, I recognize the value of time and prioritize efficiency in all that I do. My technical skills, which include proficiency in CPP, Java, HTML, CSS, JavaScript, React, and MySQL, have allowed me to excel in web development projects. I take pride in creating visually stunning websites that are both functional and attractive.
           <br/><br/>
@@ -24,6 +25,8 @@ const AboutUs = () => {
           <br/><br/>
           Overall, with my technical skills, creativity, and passion for making a positive impact on the world, I am confident that I will continue to achieve great things and contribute to something greater than myself.<br /><br /></p></div>
            </div>
+           </div>
+
   );
 }
 

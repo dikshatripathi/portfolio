@@ -30,7 +30,8 @@ function App() {
           <br />
          
         </div>
-        <p className="para">I am a highly skilled computer science student with a passion for web development. My education and technical expertise make me an ideal candidate for a dynamic and innovative organization. I have experience in various programming languages, front-end and back-end web development, and databases. In addition, I have completed several projects, including a comprehensive C++ resource website and a small-scale Spotify clone, demonstrating my technical proficiency and creativity. I am a quick learner and always eager to take on new challenges to further develop my skills.</p>
+        <div className="some">
+        <p className="para">I am a highly skilled computer science student with a passion for web development. My education and technical expertise make me an ideal candidate for a dynamic and innovative organization. I have experience in various programming languages, front-end and back-end web development, and databases. In addition, I have completed several projects, including a comprehensive C++ resource website and a small-scale Spotify clone, demonstrating my technical proficiency and creativity. I am a quick learner and always eager to take on new challenges to further develop my skills.</p></div>
         <div className="b"><a href={pdf} >Resume</a></div>
 
         <br/>
