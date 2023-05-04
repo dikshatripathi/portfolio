@@ -24,6 +24,7 @@
   }
   
   .certificate img {
+    cursor: pointer;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -35,6 +36,7 @@
   }
   
   .certificate-overlay {
+    cursor: pointer;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -50,7 +52,7 @@
   
   .certificate:hover .certificate-overlay {
     transform: translateY(0);
-    cursor: pointer;
+   
   }
   
   .certificate-overlay h3 {

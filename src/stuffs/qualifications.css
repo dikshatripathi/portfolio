@@ -32,6 +32,14 @@
    /* margin-top: 40px; */
  
   }
+  .lar{
+    font-size: 46px;
+  }
+
+  .te{
+    font-size: 20px;
+    font-weight:bold;
+  }
   
   .qualification-range-bar {
     height: 100%;
@@ -51,5 +59,35 @@
     margin: -7px;
     font-weight: bold;
     color: #0e0d0d;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    .qualifications-container {
+      margin: 50px;
+    }
+  
+    .qualification {
+      width: 90%;
+      margin-bottom: 40px;
+    }
+  
+    .qualification-title {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  
+    .qualification-range {
+      height: 10px;
+      margin-top: 20px;
+      padding: 0;
+    }
+  
+    .qualification-range-label {
+      top: 15px;
+      right: 5px;
+      font-size: 16px;
+      margin: 0;
+    }
   }
   

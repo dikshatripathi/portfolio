@@ -20,18 +20,18 @@ function App() {
 
       <Navbar />
       <Color />
-      <div class="m">
-        <div class="intro">
+      <div className="m">
+        <div className="intro">
           <Logo />
-          Hi, I'm <span class="name">DIKSHA TRIPATHI </span>
+          Hi, I'm <span className="name">DIKSHA TRIPATHI </span>
           <br />
-          <span class="name">Software</span>Engineer
+          <span className="name">Software</span>Engineer
           <br />
           <br />
          
         </div>
-        <p class="para">I am a highly skilled computer science student with a passion for web development. My education and technical expertise make me an ideal candidate for a dynamic and innovative organization. I have experience in various programming languages, front-end and back-end web development, and databases. In addition, I have completed several projects, including a comprehensive C++ resource website and a small-scale Spotify clone, demonstrating my technical proficiency and creativity. I am a quick learner and always eager to take on new challenges to further develop my skills.</p>
-        <div class="b"><a href={pdf} >Resume</a></div>
+        <p className="para">I am a highly skilled computer science student with a passion for web development. My education and technical expertise make me an ideal candidate for a dynamic and innovative organization. I have experience in various programming languages, front-end and back-end web development, and databases. In addition, I have completed several projects, including a comprehensive C++ resource website and a small-scale Spotify clone, demonstrating my technical proficiency and creativity. I am a quick learner and always eager to take on new challenges to further develop my skills.</p>
+        <div className="b"><a href={pdf} >Resume</a></div>
 
         <br/>
         <AboutUs/>

@@ -33,3 +33,35 @@ background-image: url('./img/c7.jpg');
     width: 42px;
     height:42px;
 }
+
+@media only screen and (max-width: 600px) {
+    .dbtn {
+      text-align: center;
+      margin-right: 0;
+    }
+    .btn {
+      margin-top: 10px;
+      width: 30px;
+      height: 30px;
+      margin-left: 10px;
+      border-width: 1px;
+    }
+    #c1 {
+      background-image: url('./img/c7.jpg');
+    }
+    #c2 {
+      background-image: url('./img/bg.jpg');
+    }
+    #c3 {
+      background-image: url('./img/c6.jpg');
+    }
+    #c4 {
+      background-image: url('./img/c1.jpg');
+    }
+    .btn:hover {
+      transition: 0.5s;
+      width: 32px;
+      height: 32px;
+    }
+  }
+  

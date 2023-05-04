@@ -1,30 +1,201 @@
-.sticky 
-{
- position:sticky;
- top:0px;
-      
+/* Default styles for small screens */
+.sticky {
+  position: sticky;
+  top: 0;
 }
-.nav-head{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-     
-.h{
-    font-size: 23px;
-    color: rgb(74, 7, 100);
 
+.nav-head {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
 }
+
+#g {
+  margin-right: 140px;
+}
+
+.h {
+  color: rgb(74, 7, 100);
+}
+
+.sel {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
 .navbar {
-    z-index: 999;
+  z-index: 999;
+}
+
+#im {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#im:hover {
+  transition: 0.6s;
+  width: 65px;
+  height: 65px;
+}
+
+.con {
+  text-align: center;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.hover-effect {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #000;
+  transition: all 0.4s ease;
+}
+
+.hover-effect::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(74, 7, 100);
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease;
+}
+
+.hover-effect:hover {
+  transition: 0.7s;
+  color: #fff;
+}
+
+.hover-effect:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Media queries for larger screens */
+@media screen and (min-width: 350px) and (max-width: 999px) {
+  #g {
+    margin-right: 10px;
+  }
+
+  .nav-head {
+    font-size: 18px;
+  }
+
+  .sel {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  #im {
+    width: 50px;
+    height: 50px;
+  }
+
+  .hover-effect {
+    font-size: 14px;
+  }
+
+  .con {
+    margin: 10px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1010px) {
+  .nav-head {
+    font-size: 24px;
+  }
+  .sel {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  #g {
+    margin-right: 30px;
+  }
+  .h {
+    color: #000;
+  }
+  .hover-effect {
+    font-size: 18px;
+  }
+  .con {
+    margin: 10px;
+  }
+}
+
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 344px) {
+  .nav-head {
+    font-size: 20px;
+  }
+  .sel {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  #g {
+    margin-right: 20px;
+  }
+  .h {
+    color: #000;
+  }
+  .hover-effect {
+    font-size: 16px;
+  }
+  .con {
+    margin: 10px;
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (min-width: 1001px) and (max-width: 1217px) {
+
+  .sticky {
+    position: static;
+  }
+
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-head {
+    font-size: 22px;
+  }
+
+  .sel {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  #g {
+    margin-right: 20px;
+  }
+
+  .hover-effect {
+    font-size: 16px;
+  }
+
+  #im {
+    width: 40px;
+    height: 40px;
+  }
+
+  .con {
+    margin: 10px;
+    font-size: 16px;
   }
   
-#im{
-    width:50px;
-    height:50px;
-    border: 3px solid rgb(24, 208, 214);
-    border-radius: 50%;
-}
-
-.con{
-    text-align: center;
-    margin: 20px;
 }

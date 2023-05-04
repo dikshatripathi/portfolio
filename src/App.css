@@ -1,55 +1,58 @@
 body {
   background: url('./stuffs/img/c8.jpg') no-repeat fixed center center;
   background-size: cover;
- 
 }
 
-.m{
-  padding: 80px;
+.m {
+  padding: 20px;
 }
 
-
-.mar{
-  margin-top: 50px;
+.mar {
+  margin-top: 20px;
 }
 
-.intro{
-  font-size: 25px;
+.intro {
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
 }
 
-.name{
+.name {
   color: rgb(74, 7, 100);
- font-size: 27px;
- margin:5px;
+  font-size: 22px;
+  margin: 5px;
 }
 
-.para{
+.para {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size:18px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
-.b{
-  margin-top: 40px;
+.b {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.b a{
+
+.b a {
   text-decoration: none;
   color: rgb(74, 7, 100);
- 
   padding: 10px;
-  margin-left: 40%;
-  margin-right: 40%;
   background-color: #fff;
   text-align: center;
   font-weight: bold;
   border: none;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
+  width: 60%;
+  max-width: 300px;
+  margin: 0 auto;
 }
-.b a:hover{
+
+.b a:hover {
   transition: 0.5s;
-  font-size: 22px;
+  font-size: 20px;
   padding: 11px;
 }

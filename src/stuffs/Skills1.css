@@ -1,26 +1,74 @@
 .container {
-    margin-top: 50px;
-  }
-  
+  margin-top: 50px;
+}
+
+.card {
+  margin: 25px;
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  height: 450px; /* Set a fixed height for the card */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 991px) {
   .card {
-    margin: 25px;
-    color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
+    margin: 15px;
+    height: 400px; /* Set a fixed height for the card on smaller screens */
   }
-  
-  .card:hover {
-    transform: translateY(-5px);
-  }
-  
+
   .card-title {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
   }
-  
+
+  .card-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+ 
+  .card {
+    margin: 15px;
+    height: auto; /* Remove the fixed height to make the card content scrollable */
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
   .card-text {
     font-size: 14px;
-    line-height: 1.5;
+  }
+}
+
+
+@media screen and (max-width:419px) {
+  .card{
+    height:50px;
+    overflow-y:scroll ;
   }
   
+}
+
+@media screen and (min-width:768px) {
+  .card{
+    height:250px;
+    overflow-y:scroll ;
+  }
+  
+}
