@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f6aa730a.css",
+    "main.js": "/portfolio/static/js/main.676d0aae.js",
+    "static/media/c6.jpg": "/portfolio/static/media/c6.c4da5b82766c7e52f42f.jpg",
+    "static/media/travel.jpg": "/portfolio/static/media/travel.1ad6525e2c1059568bb6.jpg",
+    "static/media/c7.jpg": "/portfolio/static/media/c7.b2eb510048692a90da60.jpg",
+    "static/media/cer2.png": "/portfolio/static/media/cer2.8355a4cb5d6168ed748c.png",
+    "static/media/cer1.png": "/portfolio/static/media/cer1.34b6e10876d5f1c0a910.png",
+    "static/media/bg.jpg": "/portfolio/static/media/bg.81c1d816a9e54c280ada.jpg",
+    "static/media/cer3.png": "/portfolio/static/media/cer3.ded9ef175a2208044c84.png",
+    "static/media/c8.jpg": "/portfolio/static/media/c8.d611d7a6499530b1c89f.jpg",
+    "static/media/slide.png": "/portfolio/static/media/slide.4496dd6a80c8749a502a.png",
+    "static/media/cer6.png": "/portfolio/static/media/cer6.cdca76667e12cd141c0d.png",
+    "static/media/self1.png": "/portfolio/static/media/self1.933a600dac021a66a496.png",
+    "static/media/tender.jpg": "/portfolio/static/media/tender.f09c126ceb9b1cbdc3ea.jpg",
+    "static/media/cer4.png": "/portfolio/static/media/cer4.206276ae48e92d803014.png",
+    "static/media/portfolioold.png": "/portfolio/static/media/portfolioold.c217b9ebc1f899b1c160.png",
+    "static/media/Diksha.pdf": "/portfolio/static/media/Diksha.eeb9231edc7376f4e572.pdf",
+    "static/media/c1.jpg": "/portfolio/static/media/c1.27b68bf5e6267f74a841.jpg",
+    "static/media/phone.png": "/portfolio/static/media/phone.916b516f25210fa5f655.png",
+    "static/media/cer5.png": "/portfolio/static/media/cer5.242a15a4bf402433dd3d.png",
+    "static/media/cpp.png": "/portfolio/static/media/cpp.1692f34903fbfa74b06b.png",
+    "static/media/cer7.png": "/portfolio/static/media/cer7.a31bebbcef71005f7fc5.png",
+    "static/media/moodify.png": "/portfolio/static/media/moodify.d5755b0094991a4115cb.png",
+    "static/media/textwizard.png": "/portfolio/static/media/textwizard.6cf632380163410680fa.png",
+    "static/media/sing.jpg": "/portfolio/static/media/sing.a54b755ad3f4095b5698.jpg",
+    "static/media/self2.jpg": "/portfolio/static/media/self2.49b9ecfa45f1323c8b20.jpg",
+    "static/media/apiquotes.png": "/portfolio/static/media/apiquotes.205fd0f873a3a39dedd1.png",
+    "static/media/stopwatch.png": "/portfolio/static/media/stopwatch.aefe5de0ebc5b741c81b.png",
+    "index.html": "/portfolio/index.html",
+    "main.f6aa730a.css.map": "/portfolio/static/css/main.f6aa730a.css.map",
+    "main.676d0aae.js.map": "/portfolio/static/js/main.676d0aae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6aa730a.css",
+    "static/js/main.676d0aae.js"
+  ]
+}
