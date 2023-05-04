@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="footer-social">
-              <a href="/#"><FaHome /></a>
-              <a href="/#about"><FaInfo /></a>
-              <a href="/#skills"><FaCode /></a>
-              <a href="/#qualifications"><FaGraduationCap /></a>
-              <a href="/#projects"><FaProjectDiagram /></a>
-              <a href="/#certificates"><FaCertificate /></a>
+              <a href="#"><FaHome /></a>
+              <a href="#about"><FaInfo /></a>
+              <a href="#skills"><FaCode /></a>
+              <a href="#qualifications"><FaGraduationCap /></a>
+              <a href="#projects"><FaProjectDiagram /></a>
+              <a href="#certificates"><FaCertificate /></a>
             </div>
             <div className="footer-text">
               <p>© 2023 Diksha Tripathi</p>
