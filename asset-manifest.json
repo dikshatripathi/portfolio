@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9dc7c25f.css",
-    "main.js": "/portfolio/static/js/main.32889cd8.js",
+    "main.js": "/portfolio/static/js/main.65b009b8.js",
     "static/media/c6.jpg": "/portfolio/static/media/c6.c4da5b82766c7e52f42f.jpg",
     "static/media/travel.jpg": "/portfolio/static/media/travel.1ad6525e2c1059568bb6.jpg",
     "static/media/c7.jpg": "/portfolio/static/media/c7.b2eb510048692a90da60.jpg",
@@ -16,9 +16,9 @@
     "static/media/tender.jpg": "/portfolio/static/media/tender.f09c126ceb9b1cbdc3ea.jpg",
     "static/media/cer4.png": "/portfolio/static/media/cer4.206276ae48e92d803014.png",
     "static/media/portfolioold.png": "/portfolio/static/media/portfolioold.c217b9ebc1f899b1c160.png",
-    "static/media/Diksha.pdf": "/portfolio/static/media/Diksha.eeb9231edc7376f4e572.pdf",
     "static/media/c1.jpg": "/portfolio/static/media/c1.27b68bf5e6267f74a841.jpg",
     "static/media/phone.png": "/portfolio/static/media/phone.916b516f25210fa5f655.png",
+    "static/media/Diksha.pdf": "/portfolio/static/media/Diksha.f847a5f5eaac88df5dcf.pdf",
     "static/media/cer5.png": "/portfolio/static/media/cer5.242a15a4bf402433dd3d.png",
     "static/media/cpp.png": "/portfolio/static/media/cpp.1692f34903fbfa74b06b.png",
     "static/media/cer7.png": "/portfolio/static/media/cer7.a31bebbcef71005f7fc5.png",
@@ -30,10 +30,10 @@
     "static/media/stopwatch.png": "/portfolio/static/media/stopwatch.aefe5de0ebc5b741c81b.png",
     "index.html": "/portfolio/index.html",
     "main.9dc7c25f.css.map": "/portfolio/static/css/main.9dc7c25f.css.map",
-    "main.32889cd8.js.map": "/portfolio/static/js/main.32889cd8.js.map"
+    "main.65b009b8.js.map": "/portfolio/static/js/main.65b009b8.js.map"
   },
   "entrypoints": [
     "static/css/main.9dc7c25f.css",
-    "static/js/main.32889cd8.js"
+    "static/js/main.65b009b8.js"
   ]
 }
